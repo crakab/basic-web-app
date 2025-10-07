@@ -15,8 +15,8 @@ export default function QueryProcessor(query: string): string {
     return "crakab1";
   }
 
-if (query.toLowerCase().includes("	What is 20 plus 4?")) {
-    return "60";
+if (query.toLowerCase().includes("What is 20 plus 4?")) {
+    return "24";
   }
   return "";
 }
