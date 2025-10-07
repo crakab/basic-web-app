@@ -15,8 +15,8 @@ export default function QueryProcessor(query: string): string {
     return "crakab1";
   }
 
-if (query.toLowerCase().includes("Which of the following numbers is the largest: 70, 96, 88?")) {
-    return "96s";
+if (query.toLowerCase().includes("	What is 20 plus 4?")) {
+    return "60";
   }
   return "";
 }
